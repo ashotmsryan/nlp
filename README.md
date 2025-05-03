@@ -17,12 +17,17 @@ Datasets and Resources - The folder with all text files
 Clone the repository:<br>
 
 ```
-git clone https://github.com/your-username/simple-nlp-model.git
-cd nlp/simple-nlp-model
+git clone https://github.com/your-username/folder-name.git
+cd nlp/folder-name
 ```
 run the env:
 ```
 pyrhon3 -m venv myenv
+source myenv/bin/activate
+```
+You also need to download some modules for different projects:<br>
+```
+pip install requiredModuleName
 ```
 Open the notebook:<br>
 ```
